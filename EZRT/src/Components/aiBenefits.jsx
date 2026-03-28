@@ -101,7 +101,7 @@ function AiBenefits() {
   return (
     <section className='app-container py-16 bg-linear-to-br from-dark to-gray-900 rounded-3xl text-white id' id='benefits'>
       <div className="text-center mb-12">
-        <span className="section-subheader">AI Benefits</span>
+        <span className="section-subheader text-3xl">AI Benefits</span>
         <h2 className="section-header">
           How AI is {" "}
           <span className='gradient-text'>Transforming Our World</span>
@@ -115,7 +115,7 @@ function AiBenefits() {
               {benefit.icon}
             </div>
             <h3 className="text-xl font-bold text-amber-50">{benefit.title} </h3>
-            <p className="mt-3 text-gray-300">{benefit.description}</p>
+            <p className="mt-3 text-gray-300">{benefit.description} </p>
           </div>
         ))}
 
